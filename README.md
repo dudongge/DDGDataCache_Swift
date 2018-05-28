@@ -8,7 +8,7 @@
 简单方便，快捷神速，是居家iOS码农必备之利器，先看功能效果
 。简单方便，快捷神速，是居家iOS码农必备之利器，具体功能模块如下。
 
-![image](https://raw.githubusercontent.com/dudongge/DDGDataCache_Swift/master/gif/DDGDataCache.gif)
+![image](https://raw.githubusercontent.com/dudongge/DDGDataCache_Swift/master/DDGDataCache_Swift/gif/DDGDataCache.gif)
     
   ```  
     //构建模拟数据
