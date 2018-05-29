@@ -1,5 +1,7 @@
 
 ## DDGDataCache
+OC版本同步发出 请移步：[DDGDataCache_OC](https://github.com/dudongge/DDGDataCache_OC)
+#
 或许有这样的需求，要求页面在无网状态先显示上一次显示的数据，这就涉及到缓存，
 但是缓存又分为文件缓存，归档等，realm 太过笨重，归档太麻烦，最后选择了文件缓存，
 看了很多博客，在参考了别人的缓存开源项目，功能太过简单单一化，
@@ -115,8 +117,9 @@
 ```
 ## 注意点（决定成功的关键）
 ```
-    注意: 使用前请在'-Bridging-Header.h' 桥接文件中导入    #import<CommonCrypto/CommonCrypto.h>
-        因为要用到MD5加密的东西
+    注意: 使用前请在'-Bridging-Header.h' 
+    桥接文件中导入    #import<CommonCrypto/CommonCrypto.h>
+    因为要用到MD5加密的东西
 ```
 
 
@@ -128,7 +131,7 @@ DDGDataCache is available under the MIT license. See the LICENSE file for more i
 
 ## instructions （备注）
 
-鉴于还有部分童鞋还在OC上开发，本库相同功能翻译成OC，大家多了一个选择，附上链接，希望可以帮到你：
+鉴于还有部分童鞋还在OC上开发，本库相同功能翻译成OC，大家多了一个选择，附上链接，希望可以帮到你：[DDGDataCache_OC](https://github.com/dudongge/DDGDataCache_OC)
 
 
   
