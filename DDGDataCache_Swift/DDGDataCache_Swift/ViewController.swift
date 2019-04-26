@@ -134,7 +134,7 @@ extension ViewController: UITableViewDelegate {
             //获取全部缓存
             if let json = DDGDataCache.cacheJsonWithURL(URLString)  {
                 self.showLogs(json.description)
-                print(json.description)
+                print(json.description ?? "")
             }
         case 5:
             //获取指定缓存数据
